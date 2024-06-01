@@ -1,7 +1,7 @@
 {
-    "name": "datamine",
+    "name": "datamine/task-buttler",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "I'm task buttler at your service",
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
