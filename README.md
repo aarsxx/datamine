@@ -1,14 +1,20 @@
-# Datamine To Do list
+<p align="center">
+  <img src="public/datamine.svg" alt="Just Do It" width="500">
+</p>
+
+<p align="center">
+<a href="https://status.heroku.com"><img src="https://img.shields.io/badge/heroku-status-brightgreen" alt="Heroku Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+<a href="https://{deployed_app_name}.herokuapp.com/last.svg">
+        <img src="https://{deployed_app_name}.herokuapp.com/last.svg" alt="Heroku CI Status">
+</a>
+</p>
+
+[![Heroku CI Status](https://datamine-13120b40742a.herokuapp.com/last.svg)](https://dashboard.heroku.com/pipelines/96e64aa4-bb02-4ebf-a646-15a8d5fa9c4f/tests)
 
 This is a web-based task management application developed using Laravel, Livewire, and Tailwind CSS. The application allows users to create, manage, and organize their tasks into groups. It offers features such as task grouping, scheduling, and user authentication.
-## Table of Contents
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#uasage)
-
-## Features
+## Main Features
 
 - User Authentication: Secure system for user login and data protection.
 - Task Creation: Create tasks with name, description, due date, and priority.
