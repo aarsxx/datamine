@@ -6,6 +6,7 @@ use App\Http\Livewire\CreateTask;
 use App\Http\Livewire\CreateTaskGroup;
 use App\Http\Livewire\TaskGroupList;
 use App\Http\Livewire\TaskList;
+use App\Http\Controllers\MarkdownController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +28,8 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])
     Route::get('/tasks', TaskList::class)->name('tasks');
 
     Route::get('/taskgroups', TaskGroupList::class)->name('taskgroups');
+
+    Route::get('/readme', [MarkdownController::class, 'show']);
     
 });
 
