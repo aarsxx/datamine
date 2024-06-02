@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/datamine.svg" alt="Just Do It" width="400">
+  <img src="public/tello.svg" alt="Just Do It" width="150">
 </p>
 
 <p align="center">
@@ -106,3 +106,48 @@ Before you start, please install this:
    php artisan serve
    ```
 11. Access the Application: Open your web browser and go to `http://localhost:8000`
+
+
+## Deploying to Heroku
+1. Log in to Heroku:
+   ```bash
+   heroku login
+   ```
+2. Create a new Heroku application:
+   ```bash
+   heroku create your-app-name
+   ```
+3. Add the Heroku Postgres add-on:
+   ```bash
+   heroku addons:create heroku-postgresql:hobby-dev
+   ```
+4. Set environment variables in Heroku:
+    ```bash
+   heroku config:set APP_KEY=$(php artisan key:generate --show)
+   heroku config:set APP_ENV=production
+   heroku config:set APP_DEBUG=false
+   heroku config:set APP_URL=https://your-app-name.herokuapp.com
+   heroku config:set ASSET_URL=https://your-app-name.herokuapp.com
+   ```
+   
+5. Add a Procfile to the root of your project to instruct Heroku how to run your app. Create a Procfile file with the following content:
+   ```Procfile
+   web: vendor/bin/heroku-php-apache2 public/
+   ```
+
+6. Commit your changes to git:
+   ```bash
+   git add .
+   git commit -m "Prepare for Heroku deployment"
+   ```
+   
+7. Deploy your application to Heroku:
+   ```bash
+   git push heroku main
+   ```
+8. Run database migrations on Heroku:
+   ```bash
+   heroku run php artisan migrate
+   ```
+9. Access your application on Heroku:
+Open your web browser and go to https://your-app-name.herokuapp.com

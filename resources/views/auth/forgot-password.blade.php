@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <img style="width: 300px;" src="{{ asset('buttler.svg') }}" alt="logo" />
+             <img src="tello.svg" alt="logot" width="100" height="100">
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">

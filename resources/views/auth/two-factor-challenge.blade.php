@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+             <img src="tello.svg" alt="logot" width="100" height="100">
         </x-slot>
 
         <div x-data="{ recovery: false }">
