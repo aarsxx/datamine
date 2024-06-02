@@ -3,6 +3,9 @@
 </p>
 
 <p align="center">
+<a href="https://github.com/andikaleonardo/datamine/issues"><img src="https://img.shields.io/github/issues/andikaleonardo/datamine.svg" alt=""></a>
+<a href="https://github.com/andikaleonardo/datamine/stargazers"><img src="https://img.shields.io/github/stars/andikaleonardo/datamine.svg" alt=""></a>
+<a href="https://github.com/andikaleonardo/datamine/network"><img src="https://img.shields.io/github/forks/andikaleonardo/datamine.svg" alt=""></a>
 <a href="https://status.heroku.com"><img src="https://img.shields.io/badge/heroku-status-brightgreen" alt="Heroku Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
@@ -18,6 +21,12 @@ This is a web-based task management application developed using Laravel, Livewir
 - Task List: View and manage tasks in a list format.
 - Task Status: Mark tasks as completed or pending.
 - Responsive UI: Works on various devices and screen sizes.
+
+## Diagram
+
+<p align="center">
+  <img src="public/flowchart.svg" alt="flowchart" width="700" height="700">
+</p>
 
 ## Prerequisites
 
@@ -95,9 +104,3 @@ Before you start, please install this:
    php artisan serve
    ```
 11. Access the Application: Open your web browser and go to `http://localhost:8000`
-
-## Usage
-
-![Alt text](/images/example-image.svg)
-
-## Documentation
