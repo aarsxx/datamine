@@ -24,7 +24,11 @@ This is a web-based to do list application developed using Laravel, Livewire, an
 - Task Status: Mark tasks as completed or pending.
 - Responsive UI: Works on various devices and screen sizes.
 
-## Diagram
+## 🚨 Forking this repo (please read!)
+
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+
+## Flow Chart
 
 <p align="center">
   <img src="public/flowchart.svg" alt="flowchart" width="700" height="700">
