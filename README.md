@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/tello.svg" alt="Just Do It" width="150">
+  <img src="public/tello.svg" alt="Just Do It" width="250" height="200">
 </p>
 
 <p align="center">
