@@ -29,7 +29,7 @@ Route::middleware(['auth:sanctum', config('jetstream.auth_session'),'verified'])
 
     Route::get('/taskgroups', TaskGroupList::class)->name('taskgroups');
 
-    Route::get('/readme', [MarkdownController::class, 'show']);
+//     Route::get('/readme', [MarkdownController::class, 'show']);
     
 });
 
